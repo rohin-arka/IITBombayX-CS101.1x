@@ -1,0 +1,12 @@
+Q. Rice is planted and grown in paddy fields. A field is divided into a number (N)
+of rectangular patches of the same length (L) and breadth (B). It takes a person
+5 minutes to plant saplings in a patch of size one sq. meter. Suppose there are P
+persons available to do the planting. How much time will it take in hours (H)
+and Minutes (M), for planting saplings in the entire field?
+
+(a) Develop a computational procedure to solve this problem.
+
+(b) Write a program for Dumbo, which will implement this computational procedure, and
+get us the total time required in Hours and Minutes.
+
+SOLUTION
