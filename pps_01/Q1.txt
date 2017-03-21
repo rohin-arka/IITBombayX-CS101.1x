@@ -1,0 +1,31 @@
+Consider the Dumbo program given below.
+
+  Use locations NBOYS, NGIRLS, NSTUDENTS;
+  NBOYS = 35;
+  NGIRLS = 124;
+  NSTUDENTS = 80;
+  Input NBOYS;
+  Input NGIRLS;
+  Output NSTUDENTS;
+  NSTUDENTS = NBOYS + NGIRLS;
+
+Suppose the user types 12 and 28 as input values for the locations NBOYS and NGIRLS respectively.
+The output value displayed by Dumbo on our monitor screen will be
+
+SOLUTION
+--------
+
+3 memory location will be reserved by dumbo's with label NBOYS, NGIRLS, NSTUDENTS respectively
+
+store 35 in the memory location label NBOYS
+store 123 in memory location label NGIRLS
+store 80 in the memory location label NSTUDENTS
+
+dumbo now takes the user input 12 and 28 and store in the memory location which already is being
+labeled as NBOYS and NGIRLS respectively
+
+prints the NSTUDENTS which contains the integer value 80
+
+Finally dumbos sum up NBOYS and NGIRLS and stores in memory location labeled with NSTUDENTS
+
+so the answer is 80;
