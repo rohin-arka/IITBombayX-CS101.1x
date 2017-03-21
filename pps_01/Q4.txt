@@ -1,0 +1,9 @@
+What is the integer equivalent represented by 2's complement of the binary number 10001011?
+10001011
+
+01110100
+ +     1
+________
+01110101
+
+64 + 32 +16 + 4 + 1

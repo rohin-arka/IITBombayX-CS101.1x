@@ -1,0 +1,14 @@
+Convert 219 into binary, octal and hexadecimal number systems respectively, as represented in C++.
+
+
+2 |219| 1
+   109| 1
+    54| 0
+    27| 1
+    13| 1
+     6| 0
+     3| 1
+     1| 1
+     0
+
+= 11011011
