@@ -1,0 +1,17 @@
+In sign-magnitude representation, what is the integer equivalent of the binary number 11110100 ?
+
+SOLUTION
+
+11110100
+
+MSB(most significant bit) = 1
+
+Thus number is negative as its MSB is 1 and 1 represent negative.
+
+now converting binary to decimal number system
+
+1110100 = 1 * 2^6 + 1 * 2^5 + 1 * 2^4 + 0 * 2^3 + 1 * 2^2 + 0 * 2^1 + 0 * 2^0
+        = 64 + 32 + 16 + 0 + 4 + 0 + 0
+        = 116
+
+The msb is 1 so -116 is the answer
