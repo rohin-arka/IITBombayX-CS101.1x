@@ -1,0 +1,48 @@
+Consider the Dumbo program given below.
+
+i.    Use locations A, B;
+ ii.    Output "Give A and B: ";
+iii.    Input A; Input B;
+ iv.    A = A + B;
+  v.    B = A + B;
+ vi.    Output "B is: ";
+vii.    Output B;
+
+Suppose the user provides 10 and 20 as the values of A and B respectively when
+Dumbo executes the above instructions. What value will be output by Dumbo after printing "B is: "?
+
+SOLUTION
+
+The instruction use locations A, B instruct dumbo to use 2 different memory location and labeled
+it with A and B.
+
+dumbo will now print the string i.e. "Give A and B: " to the standard output device
+
+dumbo will take input and store value to memory location labeled with A.
+
+dumbo will now take the next input B and stores to the memory location labeled with B.
+
+dumbo now start summing up A + B i.e. according to question 10 and 20 and stores back to A
+
+now dumbo start summing up A + B and store back to B
+
+dumbo now notify user what is printing by returning string in screen as  Output "B is: "
+
+dumbo prints the value of B;
+
+
+Lets see with some handy work
+
+A = 10 and B = 20
+
+A = 10 + 20
+
+A = 30
+
+B = A + B
+
+B = 30 + 20
+
+B = 50
+
+dumbo will print 50;
