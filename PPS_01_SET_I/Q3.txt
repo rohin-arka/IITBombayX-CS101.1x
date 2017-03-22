@@ -1,0 +1,22 @@
+Convert the decimal number 456 into binary, octal and hexadecimal number systems
+
+respectively, as represented in C++.
+
+Binary Conversion
+
+2|456| 0
+  228| 0
+  114| 0
+   57| 0
+   28| 1
+   14| 0
+   7 | 0
+   3 | 1
+   1 | 1
+   0 | 1
+
+Octal conversion
+
+8|456| 0
+   57| 1
+   7 | 7
