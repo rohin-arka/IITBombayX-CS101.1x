@@ -1,0 +1,40 @@
+Consider the Dumbo program given below.
+
+Use locations PHYSICS, CHEMISTRY, MATHS, PCM;
+PHYSICS = 67;
+CHEMISTRY = 56;
+MATHS = 35;
+PCM = 158;
+Input PHYSICS;
+Input CHEMISTRY;
+Input MATHS;
+Output PCM;
+PCM = PHYSICS + CHEMISTRY + MATHS;
+
+Suppose the user types 65, 58, and 90 as input values for the locations PHYSICS,
+CHEMISTRY, and MATHS respectively. The output value displayed by Dumbo on our
+monitor screen will be
+
+4 different memory location are reserved with label PHYSICS, CHEMISTRY, MATHS and PCM
+
+integer are store in the memory location with label are below.
+
+PHYSICS = 67, CHEMISTRY = 56, MATHS = 35, PCM = 158.
+
+Dumbo now takes user input 65 and stores to the memory location label 67;
+
+takes user input 58 and stores in the CHEMISTRY
+
+takes user input 90 and stores in the memory location MATHS
+
+Lets recall what values are saved in the memory location with the user input
+
+PHYSICS = 65, CHEMISTRY = 58, MATHs = 90, PCM = 158;
+
+Dumbo now prints the value of PCM i.e. 158.
+
+Dumbo finally sun up three values from three different memory location and finally stores in PCM as
+
+PCM = 65 + 58 + 90;
+
+Now PCM new value is 213 but there is no instruction to print for dumbo.
