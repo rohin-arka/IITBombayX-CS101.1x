@@ -22,4 +22,6 @@ int main(){
     cout << "Bad format" << endl;
   }
 
+  return 0;
+
 }
