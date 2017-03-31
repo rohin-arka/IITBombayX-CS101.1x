@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+int main(){
+  int marks, min = 0, max = 0, sum = 0, count = 1;
+  float average;
+  for(int i = 1; i <= 10; i++){
+      cout << "Enter the marks of student";
+      cout << i << endl;
+      cin >> marks;
+      if (count == 1){
+          max = marks;
+          min = marks;
+      }
+      max = (marks > max) ? marks : max;
+      min = (marks < min) ? marks : min;
+      sum = sum + marks;
+      count++;
+  }
+  average = sum/10.0;
+  cout << max << endl;
+  cout << min << endl;
+  cout << sum << endl;
+  cout << average << endl;
+}
