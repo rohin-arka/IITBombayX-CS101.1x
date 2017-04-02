@@ -12,8 +12,8 @@ int main(){
     case 2:
       if (number2 < 0)
         cout << "Holidays";
-      if (number > 10;)
-        cout << "Weekend"
+      if (number2 > 10)
+        cout << "Weekend";
 
     default:
       cout << "Day";
