@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
 int main(void){
-  int max, min, avg, numberOfStudents, marks, count = 1, flag = 1, sum = 0;
+  int max, min, numberOfStudents, marks, count = 1, flag = 1, sum = 0;
+  float avg;
   cout << "Enter the number of marks" << endl;
   cin >> numberOfStudents;
   while(count <= numberOfStudents){
@@ -27,4 +28,5 @@ int main(void){
   cout << min << endl;
   cout << "The max marks is ";
   cout << max << endl;
+  return 0;
 }
