@@ -1,3 +1,5 @@
+// What will be the output of the following program, when it is executed.
+
 #include <iostream>
 using namespace std;
 int main(void){
@@ -8,3 +10,5 @@ int main(void){
   cout << FACT << endl;
   return 0;
 }
+
+// Answer: infinite loop

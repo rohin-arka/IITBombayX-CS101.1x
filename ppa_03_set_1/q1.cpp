@@ -1,3 +1,5 @@
+// How many times will the 'while' loop in the following code execute?
+
 #include <iostream>
 using namespace std;
 int main(void){
@@ -13,3 +15,5 @@ int main(void){
 
   return 0;
 }
+
+// Answer: 0
