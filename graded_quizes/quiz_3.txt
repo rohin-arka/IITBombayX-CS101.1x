@@ -2,3 +2,10 @@ Following names are chosen by a programmer for using them as variable names.
 Identify the option having a valid variable name.
 
 answer : intCounter1
+
+its a valid variable because
+
+It is not begin with number
+It is not a reserve world
+Variable name should be meaningful and it is which means it is a sign integer
+that behaves like a count and is 1;

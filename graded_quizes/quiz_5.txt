@@ -17,3 +17,6 @@ if( (number1 == 3) && (number2 != 3) )
 What would be the output, if the user entered integer value 2 for number1 and integer
 value 3 for number2
 Answer: Afternoon Williams
+
+Explanation:
+because of && operator only 2 and 4 executes

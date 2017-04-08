@@ -1,0 +1,19 @@
+Consider the program given below.
+int main() {
+    int a = 7;
+    int b = 8;
+    int lamp, light;
+
+    lamp = 5*a + 2*b;
+    light = 4*a + 8*b;
+
+    while(lamp < light) {
+        lamp = lamp + 4;
+        light = light - 2;
+    }
+    return 0;
+}
+How many times does the while loop execute. Write your numerical answer in the
+textbox given below. Please make sure that you do not enter any space in the textbox.
+
+Answer: 
