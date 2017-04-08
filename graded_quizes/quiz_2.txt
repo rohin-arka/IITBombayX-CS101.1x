@@ -1,0 +1,2 @@
+What is the integer equivalent represented by 2's complement of the binary number 10010101 ?
+Answer: -107
