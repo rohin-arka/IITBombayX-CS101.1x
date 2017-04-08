@@ -16,4 +16,13 @@ int main() {
 How many times does the while loop execute. Write your numerical answer in the
 textbox given below. Please make sure that you do not enter any space in the textbox.
 
-Answer: 
+Answer: 7
+iteration 1 => lamp = 55, light = 90
+          2 =>  59, 88
+          3 =>  63, 86
+          4 =>  67, 84
+          5 =>  71, 82
+          6 =>  75, 80
+          7 =>  79, 78
+
+    
