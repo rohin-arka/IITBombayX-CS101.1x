@@ -1,0 +1,4 @@
+Following names are chosen by a programmer for using them as variable names.
+Identify the option having a valid variable name.
+
+answer : intCounter1
