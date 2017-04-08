@@ -1,0 +1,19 @@
+i.  Use locations A, B;
+  ii.  Output "Give A and B: ";
+ iii.  A = 62;
+  iv.  B = 149;
+   v.  B = A + B;
+  vi.  A = A + B;
+ vii.  Output A;
+viii.  Output B;
+What value will be printed by the statement 'Output A'. Write your numerical answer
+in the textbox given below. Please make sure that you do not enter any space in the textbox.
+
+Answer : 273
+
+What value will be printed by the statement 'Output B'. Write your numerical answer in
+the textbox given below. Please make sure that you do not enter any space in the textbox.
+
+Answer : 211
+
+ 
