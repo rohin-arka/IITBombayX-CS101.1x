@@ -23,4 +23,4 @@ int main () {
     return 0;
 }
 
-Answer: 48
+// Answer: 48
