@@ -1,40 +1,53 @@
 #include <iostream>
 using namespace std;
 int main(void){
-  int inputNumber = 5524, number, ssd, inputNumber2, inputNumber3;
-  inputNumber2 = inputNumber;
+  int inputNumber = 7024, number, ssd, inputNumber2, inputNumber3;
+
+  int counter2, counter, squareSum, lastTwo, additionLastTwo;
   inputNumber3 = inputNumber;
-  int counter2 = 0, counter = 1, squareSum = 0, lastTwo = 0, counter2copy = counter2, additionLastTwo;
+
   for(int i = 0; i < 11; i++){
+    inputNumber2 = inputNumber;
+    int reverseNumber;
+    int newNumber1 = inputNumber2 / 10;
+    counter2 = 0;
+    counter = 1;
+    squareSum = 0;
+    lastTwo = 0;
     while(inputNumber > 0){
       number = inputNumber % 10;
       squareSum += (number * number);
       inputNumber = inputNumber /10;
     }
     ssd = squareSum * 323;
-    while(inputNumber1 > 0){
-      counter2 = counter2 * 10 + inputNumber1 % 10;
-      inputNumber1 = inputNumber1/10;
+    int newNumber = inputNumber2 % 10;
+    while(inputNumber2 != 0){
+      newNumber = newNumber * 10;
+      counter2 = newNumber;
+      inputNumber2 = inputNumber2 / 10;
      }
-
+     cout << newNumber1 << endl;
+     reverseNumber = newNumber1 + counter2/10;
      for(int i = 1; i < 3; i++){
        if(i == 2){
-         lastTwo += (inputNumber3 % 10)* 10;
+         lastTwo += (reverseNumber % 10)* 10;
        }
        else{
-         lastTwo = inputNumber3 % 10;
+         lastTwo = reverseNumber % 10;
        }
-       cout << inputNumber3 << endl;
-       inputNumber3 = inputNumber3 /10;
+       reverseNumber = reverseNumber / 10;
      }
      additionLastTwo = ssd + lastTwo;
-    //  if(ssd < additionLastTwo){
-    //    break;
-    //  }
+     if((inputNumber3 * 8) < additionLastTwo){
+       break;
+     }
+     else{
+       inputNumber = additionLastTwo;
+     }
 
     counter++;
   }
-  cout << additionLastTwo << endl;
+  cout << lastTwo << endl;
   cout << squareSum << endl;
   return 0;
 }
