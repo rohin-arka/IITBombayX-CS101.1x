@@ -1,11 +1,12 @@
 #include <iostream>
 using namespace std;
 int main(void){
-  int inputNumber = 7345, ssd, inputLastNumber, rpm, rightShiftNumber, lastTwo, nextRpm, firstRpm;
-  firstRpm = inputNumber;
-  int year;
+  long long int firstRpm, inputNumber, rightShiftNumber, ssd, inalRPM, rpm = 6924;
+  int inputLastNumber, lastTwo, years;
+  firstRpm = rpm;
+  inputNumber = firstRpm;
   for(int i = 1; i < 11; i++){
-    ssd = 0, inputLastNumber = 0, rightShiftNumber = 0, nextRpm = 0;
+    ssd = 0, inputLastNumber = 0, rightShiftNumber = 0;
     rpm = inputNumber;
     while(inputNumber !=0 ){
       inputLastNumber = inputNumber % 10;
@@ -21,15 +22,16 @@ int main(void){
     }
     rightShiftNumber = inputLastNumber/10 + rightShiftNumber;
     lastTwo = (rightShiftNumber % 10) + ((rightShiftNumber /10) % 10)*10;
-    nextRpm = ssd + lastTwo;
-    if((firstRpm * 8) < nextRpm){
-      year = i;
+    finalRPM = ssd + lastTwo;
+    years = i;
+    if((firstRpm * 8) < finalRPM){
       break;
     }
     else{
-      inputNumber = nextRpm;
-    }
+      inputNumber = finalRPM;
+   }
   }
-  cout << nextRpm << endl;
+  cout << years << endl;
+  cout << finalRPM << endl;
   return 0;
 }
