@@ -1,3 +1,24 @@
+// General Instructions
+//
+// This is a GPA (Graded Programming Assignment) and the marks scored will be counted
+// towards your final grade.
+// Click on the 'student.cpp' file. Write your solution code within the start and end of
+// respective functions (between opening and closing curly braces of the function) in
+// 'student.cpp' file. Please make sure to read the comments given in the program. Click
+// 'Compile' to compile your code, and 'Run' to execute your program and view the output.
+// You can compile and execute your code as many times as you wish. Click 'Submit' to submit
+// your code for grading. To view your grade, you will need to refresh your browser (Kindly
+// read the note given below in red color).
+// Please note that you are NOT supposed to write the function 'int main()'. Assume that
+// it is already written.
+// Do NOT delete or modify the existing code i.e. function definition, comments, etc.
+// Do NOT write any INPUT or OUTPUT statements, i.e. no statements like cin, cout, scanf,
+// printf, etc. should be included in your code.
+// Note: When you refresh your browser, the code that you have written in the space provided
+// will be lost. Make sure that you save it locally on your computer. If you want to save your
+// program in this IDE i.e. (Project --> Save Changes), then you need to register and sign in on
+// 'https://codeboard.io/
+
 #include <iostream>
 using namespace std;
 int main(void){
