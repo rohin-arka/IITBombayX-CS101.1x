@@ -22,7 +22,7 @@
 #include <iostream>
 using namespace std;
 int main(void){
-  long long int firstRpm, inputNumber, rightShiftNumber, ssd, inalRPM, rpm = 6924;
+  long long int firstRpm, inputNumber, rightShiftNumber, ssd, finalRPM, rpm = 6924;
   int inputLastNumber, lastTwo, years;
   firstRpm = rpm;
   inputNumber = firstRpm;
