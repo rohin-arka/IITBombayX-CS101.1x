@@ -24,10 +24,10 @@ int main(){
   cout << "Enter the width of a rectangle" << endl;
   cin >> rectangleWidth;
 
-  cout << "The area of rectange is" << endl;
+  cout << "The area of rectange is (" << rectangleLength << " x " << rectangleWidth << ")" << endl;
   cout << rectangleArea(rectangleLength, rectangleWidth) << endl;
 
-  cout << "The perimter of a  rectangle is" << endl;
+  cout << "The perimter of a  rectangle is 2(" << rectangleLength << " + " << rectangleWidth  << ")" << endl;
   cout << rectanglePerimeter(rectangleLength, rectangleWidth) << endl;
 
   return 0;
