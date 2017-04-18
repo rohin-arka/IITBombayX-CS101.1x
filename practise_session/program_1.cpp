@@ -29,4 +29,6 @@ int main(){
 
   cout << "The perimter of a  rectangle is" << endl;
   cout << rectanglePerimeter(rectangleLength, rectangleWidth) << endl;
+
+  return 0;
 }
